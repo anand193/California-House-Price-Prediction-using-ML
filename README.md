@@ -1,11 +1,10 @@
-🏡 California House Price Prediction (KNN)
 Overview
 
-This project predicts house prices in California using K-Nearest Neighbors (KNN) regression. It aims to analyze the factors influencing housing prices and provide accurate predictions using machine learning techniques.
+This project predicts house prices in California using K-Nearest Neighbors (KNN) regression. It analyzes the factors influencing housing prices and provides accurate predictions using machine learning techniques.
 
 Dataset
 
-The dataset is publicly available and contains California housing data with the following key columns:
+The dataset contains California housing data with the following columns:
 
 median_income: Median income of households in the area
 
