@@ -1,59 +1,88 @@
-# California-House-Price-Prediction-using-Machine-Learning
-Predicting California house prices using ML. Includes data preprocessing, EDA, feature engineering, and regression models (K-Nearest Neighbors (KNN) regression, Random Forest, etc.) with performance evaluation and visualizations to explore key factors affecting housing prices.
-
 🏡 California House Price Prediction (KNN)
-📌 Project Overview
+Overview
 
-This project predicts house prices in California using K-Nearest Neighbors (KNN) regression. It includes Exploratory Data Analysis (EDA), data preprocessing, feature engineering, and model building to analyze the factors influencing housing prices.
+This project predicts house prices in California using K-Nearest Neighbors (KNN) regression. It aims to analyze the factors influencing housing prices and provide accurate predictions using machine learning techniques.
 
-📂 Dataset
+Dataset
 
-Source: California Housing Dataset (commonly used in regression problems)
+The dataset is publicly available and contains California housing data with the following key columns:
 
-Features include:
+median_income: Median income of households in the area
 
-Median income
+housing_median_age: Median age of the houses
 
-Housing median age
+total_rooms: Total number of rooms
 
-Average rooms
+population: Total population of the block
 
-Population
+latitude: Latitude coordinate of the house
 
-Latitude & Longitude
+longitude: Longitude coordinate of the house
 
-Median house value (target)
+median_house_value: Target variable representing house price
 
-⚙️ Approach
+Objectives
 
-Data Preprocessing
+Predict median house values in California
 
-Handling missing values
+Identify key features influencing house prices
+
+Perform exploratory data analysis (EDA) to understand trends and patterns
+
+Build and evaluate a KNN regression model for price prediction
+
+Approach
+
+Data Cleaning & Preprocessing
+
+Handle missing values and duplicates
 
 Feature scaling and transformation
 
-Splitting data into train & test sets
+Split dataset into training and testing sets
 
 Exploratory Data Analysis (EDA)
+
+Visualize distributions of features
 
 Correlation analysis
 
 Feature vs. target visualizations
 
-Outlier detection
+Detect and handle outliers
 
-Model Building
+Modeling
 
-Implemented K-Nearest Neighbors (KNN) regression
+Implement K-Nearest Neighbors (KNN) regression
 
-Model Evaluation
+Hyperparameter tuning using GridSearchCV
 
-Metrics: RMSE, MAE, R² Score
+Evaluation
 
-Comparison of predictions vs. actual values
+Metrics used: RMSE, MAE, R² score
 
-📊 Results
+Compare predicted vs. actual house prices
 
-KNN regression successfully predicted housing prices with competitive accuracy.
+Tools & Libraries
 
-Income and location were found to be the strongest predictors of house prices.
+Python
+
+Pandas, NumPy
+
+Matplotlib, Seaborn
+
+Scikit-learn
+
+Results
+
+KNN regression provided competitive accuracy in predicting housing prices
+
+Median income and location were the most influential features
+
+Future Work
+
+Experiment with advanced regression models like Random Forest or XGBoost
+
+Deploy the model using Flask or Streamlit
+
+Build interactive dashboards for visual exploration of housing data
