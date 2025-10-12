@@ -38,3 +38,56 @@ Evaluation: Metrics used include RMSE, MAE, and R² score; compare predicted vs.
 KNN regression achieved competitive accuracy in predicting California house prices
 
 Median income and location were the most influential features
+
+---
+
+## 🧩 Installation & Setup
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/anand193/laptop-price-prediction.git
+cd laptop-price-prediction 
+```
+### 2️⃣ Create a Virtual Environment
+```bash
+python -m venv .venv
+```
+### 3️⃣ Activate the Environment
+```bash
+source .venv/Scripts/activate
+```
+### 4️⃣ Install Dependencies
+```
+pip install -r requirements.txt
+```
+### 5️⃣ Run the Streamlit App
+```
+streamlit run app.py
+```
+### 6️⃣ Open in Browser
+```
+After running the above command, Streamlit will display a local URL (like http://localhost:8501).
+Click the link or paste it into your browser to launch the app.
+```
+### 7️⃣ How to Push Your Code to GitHub
+```
+git init
+git add .
+git commit -m "Final-Commit"
+git push origin main
+```
+--- 
+## 👨‍💻 Author
+
+- Anand Mehto
+- 📧 anandmehto78@gmail.com
+- 🔗 linkedin.com/in/anandmehto
+
+---
+
+## 🏆 Acknowledgment
+
+- This project was developed as part of my Data Science learning journey to demonstrate:
+- End-to-end ML workflow (EDA → Feature Engineering → Model Building → Deployment)
+- Real-world problem solving through data-driven decision-making
+
