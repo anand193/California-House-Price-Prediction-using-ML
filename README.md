@@ -5,7 +5,10 @@ The California real estate market is highly dynamic, with housing prices influen
 
 📌 Overview
 This project predicts house prices in California using K-Nearest Neighbors (KNN) regression. It includes data preprocessing, exploratory data analysis (EDA), feature engineering, and model evaluation to understand factors influencing house prices.
-
+---
+## 🚀 Live Demo  
+👉 **Streamlit App:** [Click Here to Try It!](https://california-house-price-prediction-using-ml-92dhocphdkyq77aagyd.streamlit.app/)
+---
 📂 Dataset
 The dataset contains California housing data with the following columns:
 
@@ -22,6 +25,7 @@ latitude: Latitude of the house
 longitude: Longitude of the house
 
 median_house_value: Target variable representing house price
+---
 
 ⚙️ Approach
 
@@ -32,6 +36,7 @@ EDA: Analyze distributions, correlations, feature-target relationships, detect o
 Modeling: Implement KNN regression with hyperparameter tuning
 
 Evaluation: Metrics used include RMSE, MAE, and R² score; compare predicted vs. actual prices
+---
 
 📊 Results
 
